@@ -1,15 +1,12 @@
 language: cpp
-
-compiler:
-  - gcc
-  - clang
+compiler: gcc
 
 cache:
   pip: true
 
 before_install:
-  - sudo apt-get update -q
-  - sudo apt-get install python3 -y
+  - pyenv install 3.6.0
+  - pyenv local 3.6.0
   - pip install wheel
 
 install:
