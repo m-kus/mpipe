@@ -16,16 +16,18 @@ cache:
   directories:
   - /opt/pyenv
 
-before_install:
+install:
   - pyenv install 3.6.0
   - pyenv local 3.6.0
   - pip install wheel
 
-install:
+before_script:
+  - export CC=gcc-6
+  - export CXX=g++-6
+
+script:
   - mkdir build
   - cd build
   - cmake ..
   - make
-
-script: 
   - ./mpipe_test
