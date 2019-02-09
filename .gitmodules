@@ -1,0 +1,30 @@
+[submodule "dependencies/readerwriterqueue"]
+	path = dependencies/readerwriterqueue
+	url = https://github.com/cameron314/readerwriterqueue.git
+[submodule "dependencies/cpp-httplib"]
+	path = dependencies/cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git
+[submodule "dependencies/pybind11"]
+	path = dependencies/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "dependencies/googletest"]
+	path = dependencies/googletest
+	url = https://github.com/google/googletest.git
+[submodule "dependencies/pathie-cpp"]
+	path = dependencies/pathie-cpp
+	url = https://github.com/Quintus/pathie-cpp.git
+[submodule "dependencies/fast-cpp-csv-parser"]
+	path = dependencies/fast-cpp-csv-parser
+	url = https://github.com/ben-strasser/fast-cpp-csv-parser.git
+[submodule "dependencies/--force"]
+	path = dependencies/--force
+	url = https://github.com/google/googletest.git
+[submodule "googletest"]
+	path = googletest
+	url = https://github.com/google/googletest.git
+[submodule "dependencies/NanoLog"]
+	path = dependencies/NanoLog
+	url = https://github.com/Iyengar111/NanoLog.git
+[submodule "dependencies/spdlog"]
+	path = dependencies/spdlog
+	url = https://github.com/gabime/spdlog.git
