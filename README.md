@@ -1,6 +1,8 @@
+# MPipe
 
-Что это
-==================
+[![Build Status](https://travis-ci.org/m-kus/mpipe.svg?branch=master)](https://travis-ci.org/m-kus/mpipe)
+[![Made With](https://img.shields.io/badge/made%20with-cpp-red.svg?)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Это библиотека на C++ для быстрого создания торговых систем из кубиков - модулей `Module`. 
 Они ничего не знают друг про друга и общаются с помощью большой структуры - состояния `State`.
