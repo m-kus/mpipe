@@ -3,6 +3,8 @@ compiler: gcc
 
 cache:
   pip: true
+  directories:
+  - /opt/pyenv
 
 before_install:
   - pyenv install 3.6.0
@@ -13,5 +15,7 @@ install:
   - mkdir build
   - cd build
   - cmake ..
+  - make
 
-script: mpipe_test
+script: 
+  - ./mpipe_test
