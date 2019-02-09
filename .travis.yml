@@ -1,8 +1,11 @@
 language: cpp
+os: linux
+env: PYTHON=3.6 CPP=11 GCC=4.8
 
-python:
-  - "3.6"
-
+addons:
+  apt:
+    packages: [python3.6-dev python3.6-venv, cmake=2.\*, cmake-data=2.\*]
+ 
 cache:
   pip: true
 
