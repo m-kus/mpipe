@@ -3,13 +3,17 @@ language: cpp
 python:
   - "3.6"
 
+cache:
+  pip: true
+
 compiler:
   - gcc
   - clang
 
 before_script:
+  - pip install wheel
   - mkdir build
   - cd build
-  - cmake -DPYTHON_EXECUTABLE=$HOME/virtualenv/python3.6.3 ..
+  - cmake ..
 
-script: make && make test
+script: mpipe_test
